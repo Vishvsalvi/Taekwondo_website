@@ -38,7 +38,7 @@ const Slider = () => {
           navigation
           pagination={{ clickable: true }}
           loop={true}
-          autoplay={{ delay: 1000 }}
+          autoplay={{ delay: 4000 }}
           className="w-full h-full"
         >
           {slides.map(slide => (
